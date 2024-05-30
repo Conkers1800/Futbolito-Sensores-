@@ -44,7 +44,7 @@ fun InicioBodyContent(navController: NavController) {
         contentAlignment = Alignment.Center
     ) {
         Image(
-            bitmap = ImageBitmap.imageResource(id = R.drawable.fondo), // Aquí puedes cambiar el fondo
+            bitmap = ImageBitmap.imageResource(id = R.drawable.fondo),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
